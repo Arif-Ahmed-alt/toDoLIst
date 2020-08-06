@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do LIst</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card mt-5" style="width: 70%;margin:0 auto;">
+        <div class="card-body">
+          <h5 class="card-title">Task List</h5>
+          <h6 class="card-subtitle my-2 text-muted">New task</h6>
+          <form>
+            <div class="form-group">
+              <input type="text" class="form-control" id="input" aria-describedby="emailHelp" placeholder="List Your Task">
+            <hr>
+            </div>
+            </form>
+          <a href="#" class="card-link btn " id="add">Add task</a>
+        <div class="ToDo pt-5">
+            <ul class="list-group">
+                <li class="list-group-item">Default Task-1 <span><i class="fa fa-remove"></i></span></li>
+                <li class="list-group-item">Default Task-2 <span><i class="fa fa-remove"></i></span></li>
+                <li class="list-group-item">Default Task-3  <span><i class="fa fa-remove"></i></span></li>
+               
+              </ul>
+        </div>
+        <a href="#" class="btn btn-dark mt-3" id="clear">Clear Task</a>
+        </div>
+      </div>
+
+    <script src="project.js"></script>
+
+</body>
+</html>
